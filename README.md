@@ -46,12 +46,11 @@ CREATE TABLE new\_categories AS select \* from categories LIMIT 0;
 
 ### 4. **Hàm tổng hợp:** COUNT(), AVG(), MIN(), MAX(), SUM()
 
-   # 1.1 Hiển thị tổng likes của tác giả có id \=1.
+	1.1 Hiển thị tổng likes của tác giả có id \=1.
 
-   # SELECT SUM(likes) FROM posts WHERE author=1;
-
-   1.2 Có tất cả bao nhiêu dòng dữ liệu trong bảng posts?  
-   1.3 Giá trị likes lớn nhất và nhỏ nhất?
+	**SELECT SUM(likes) FROM posts WHERE author=1;**
+	1.2 Có tất cả bao nhiêu dòng dữ liệu trong bảng posts?  
+ 	1.3 Giá trị likes lớn nhất và nhỏ nhất?
 
 ### 5. **GROUP BY, HAVING**  
    SELECT column1, aggregate\_function (column2)   
